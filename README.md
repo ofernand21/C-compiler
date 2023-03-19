@@ -6,5 +6,5 @@ lex -o scanner.c scanner.l
 yacc -o parser.c parser.y
 # To compile all project
 gcc -o myprogram myprogram.c scanner.c parser.c
-# To excecute
+# To run project
 ./myprogram
